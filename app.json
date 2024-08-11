@@ -5,9 +5,21 @@
       "bundler": "metro"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-asset"
     ],
     "name": "zinggg",
-    "slug": "zinggg"
+    "slug": "zinggg",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "52e731b5-6d86-422b-be7d-3388ecdcb9ea"
+      }
+    },
+    "android": {
+      "package": "com.rakeshss1.zinggg"
+    }
   }
 }
