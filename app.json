@@ -10,6 +10,7 @@
     ],
     "name": "zinggg",
     "slug": "zinggg",
+    "icon":"./assets/zinggg-logo.jpg",
     "extra": {
       "router": {
         "origin": false

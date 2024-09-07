@@ -10,7 +10,7 @@ export default function HomeScreen({ navigation }) {
 
   const openLink = () => {
     setLoading(true); // Start loading
-    Linking.openURL('https://in999.club/#/register?invitationCode=845341011379')
+    Linking.openURL('https://bit.ly/4gd2KFE')
       .catch(err => {
         console.error('An error occurred while opening the link', err);
       })
